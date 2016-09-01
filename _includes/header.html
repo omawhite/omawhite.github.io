@@ -1,7 +1,7 @@
-<header>
-	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-  <nav>
-			<ul>
+<header class="site-header">
+	<h1 class="site-title"><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+  <nav class="site-navigation">
+			<ul class="site-navigation-list">
 				{% for page in site.pages %} {% if page.title %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
