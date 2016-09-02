@@ -13,23 +13,36 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Omar Is Awesome
-email: omawhite@indiana.edu
-description: >
-  Omar's personal website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site
-twitter_username:  blueeyeblackman
-github_username:  omawhite
 
-# Build settings
+#Where things are
+source:  .
+destination:  ./_site
+plugins:  ./_plugins
+layouts:  ./_layouts
+data_source:  ./_data
+
+
+#Build settings
 markdown: kramdown
-theme: minima
-#specify sass directory
-sass:
-  sass_dir:  _sass
+highlighter: rouge
+
 #custom pages get their own directory
 include: ['_pages']
 
+#include our sass/scss directory
+include: ['_sass']
+
 kramdown:
   input:  GFM
+
+#serving
+port: 8000
+host: localhost
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+
+#plugins
+whitelist:  []
+gems:  []
+
+#
