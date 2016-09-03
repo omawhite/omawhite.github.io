@@ -1,0 +1,10 @@
+#Global settings goes here so that things are refreshed properly during development
+
+#site settings
+title: Omar Is Awesome
+email: omawhite@indiana.edu
+description: >
+  Omar's personal website
+url: "http://omawhite.github.io" # the base hostname & protocol for your site
+twitter_username:  blueeyeblackman
+github_username:  omawhite
