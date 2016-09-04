@@ -1,10 +1,26 @@
-<header class="site-header">
-	<h1 class="site-title"><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-  <nav class="site-navigation">
-			<ul class="site-navigation-list">
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-			</ul>
-		</nav>
-</header>
+<nav id="site-nav" role="navigation" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+
+  <!-- Brand/Logo grouped with toggle content -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">{{site.data.global.title}}</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="nav navbar-nav">
+        {% for page in site.pages %} {% if page.title %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %} {% endfor %}
+      </ul>
+    </div>
+
+
+  <!-- Nav Links and other content grouped together for better toggeling-->
+  </div>
+</nav>

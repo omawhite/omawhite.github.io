@@ -17,9 +17,9 @@
 #Where things are
 source:  .
 destination:  ./_site
-plugins:  ./_plugins
-layouts:  ./_layouts
-data_source:  ./_data
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:  ./_data
 
 
 #Build settings
@@ -45,4 +45,6 @@ baseurl: "" # does not include hostname
 whitelist:  []
 gems:  []
 
-#
+#sass settings
+sass:
+  style: :compressed
