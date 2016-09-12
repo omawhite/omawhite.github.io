@@ -20,6 +20,7 @@ destination:  ./_site
 plugins_dir:  ./_plugins
 layouts_dir:  ./_layouts
 data_dir:  ./_data
+include_dir:  ./_includes
 
 
 #Build settings
@@ -27,19 +28,18 @@ markdown: kramdown
 highlighter: rouge
 
 #custom pages get their own directory
-include: ['_pages']
-
-#include our sass/scss directory
-include: ['_sass']
+include:  ["_pages"]
 
 kramdown:
   input:  GFM
 
 #serving
 port: 8000
-host: localhost
 host:    127.0.0.1
 baseurl: "" # does not include hostname
+
+#url settings
+permalink:  /:title/
 
 #plugins
 whitelist:  []
@@ -48,3 +48,4 @@ gems:  []
 #sass settings
 sass:
   style: :compressed
+  sass_dir: _sass

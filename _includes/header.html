@@ -12,15 +12,14 @@
       <a class="navbar-brand" href="#">{{site.data.global.title}}</a>
     </div>
 
+  <!-- Nav Links and other content grouped together for better toggeling-->
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="nav navbar-nav">
-        {% for page in site.pages %} {% if page.title %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% endif %} {% endfor %}
+        {% for item in site.data.nav.main %}
+        <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+        {% endfor %}
       </ul>
     </div>
 
-
-  <!-- Nav Links and other content grouped together for better toggeling-->
   </div>
 </nav>
