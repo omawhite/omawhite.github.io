@@ -1,8 +1,10 @@
 #Global settings goes here so that things are refreshed properly during development
 
 #site settings
-title: Site Title
-email: omawhite@indiana.edu
+title: Omawhite.io
+author: Omar Louis White
+email: louiswhite3019@gmail.com
+tagline: Home of the blue eyed black man!
 description: >
   Omar's personal website
 url: "http://omawhite.github.io" # the base hostname & protocol for your site

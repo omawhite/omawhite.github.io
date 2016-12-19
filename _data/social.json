@@ -10,5 +10,9 @@
   {
     "icon": "fa-github",
     "link": "https://github.com/omawhite"
+  },
+  {
+    "icon": "fa-envelope",
+    "link": "mailto:louiswhite3019@gmail.com"
   }
 ]
