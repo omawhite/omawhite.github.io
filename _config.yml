@@ -43,7 +43,12 @@ permalink:  /:title/
 
 #plugins
 whitelist:  []
-gems:  []
+gems:
+  - jekyll-email-protect
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
 #sass settings
 sass:
