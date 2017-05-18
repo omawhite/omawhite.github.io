@@ -280,7 +280,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $cream;
+  background-color: $lightGray;
 }
 
 footer {
@@ -290,3 +290,4 @@ footer {
 
 @import "highlights";
 @import "jekyll-mono";
+@import "custom";
