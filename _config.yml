@@ -8,6 +8,9 @@ name: Omar Louis White
 # Short bio or description (displayed in the header)
 description: IU Alumni & Self Proclaimed Nerd
 
+#our data directory where we can put more json and yml files
+data_dir:  ./_data
+
 
 #
 # Flags below are optional
