@@ -3,6 +3,7 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
+
 ## Education
 
 Bachelors of Science in Informatics from Indiana University
