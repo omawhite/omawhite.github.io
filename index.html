@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-
+<h1 class="centered-text">Blog</h1>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
 
-      <h1 class="centered-text"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2 class="centered-text"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="entry">
         {{ post.excerpt }}
