@@ -4,9 +4,13 @@ title: Resume
 permalink: /resume/
 ---
 
+## Contact Info
+
+**Email:** louiswhite3019@gmail.com
+
 ## Education
 
-Bachelors of Science in Informatics from Indiana University
+**Bachelors of Science in Informatics from Indiana University**
 
 * Minor in Business
 * Minor in Computer Science

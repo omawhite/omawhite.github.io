@@ -8,4 +8,4 @@ Hi, my name is Omar White. I'm an native of Bloomington, Indiana and an alumni o
 
 When I'm not coding I mostly spend my time hanging out with my friends, playing xbox, or reading. Now that I'm out of school I'm hoping to discovering some new hobbies other than studying. I'm looking forward to reteaching myself piano, reading a few good books, and enjoying post undergraduate life.
 
-This site is built using [Jekyll](https://jekyllrb.com/) and is using the [Jekyll-Mono theme](https://github.com/AkshayAgarwal007/Jekyll-Mono) created by [Akshay Agarwal](http://akshayagarwal.me/) and hosted using [github pages](https://pages.github.com/).
+This site is built using [Jekyll](https://jekyllrb.com/) and is using the [Jekyll-Mono](https://github.com/AkshayAgarwal007/Jekyll-Mono) theme created by [Akshay Agarwal](http://akshayagarwal.me/) and hosted using [Github pages](https://pages.github.com/).
