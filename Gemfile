@@ -29,4 +29,5 @@ gem "github-pages", group: :jekyll_plugins
    gem 'jekyll-sitemap'
    gem 'jekyll-gist'
    gem 'jekyll-feed'
+   gem 'bootstrap', '~> 4.0.0.alpha6'
  end

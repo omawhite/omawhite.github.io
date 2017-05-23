@@ -4,14 +4,16 @@
 		"image": "dreu_project.png",
 		"url": "http://omarwhite-ua-dreu.weebly.com",
 		"date": "Aug 2015",
-		"tags": ["Adruino"]
+		"tags": ["Adruino"],
+                "description": "listen to this track bitch"
 	},
 	{
 		"name": "STM32 Brick Breaker",
 		"image": "brickbreak.jpg",
 		"url": "https://github.com/omawhite/Brick-Breaker",
 		"date": "May 2016",
-		"tags": ["STM32","C"]
+		"tags": ["STM32","C"],
+                "description": "listen to this track bitch"
 	}
 
 ]

@@ -1,11 +1,18 @@
 ---
-layout: page
-title:  Home
-permalink: /
+layout: default
 ---
+<h1 class="centered-text">Blog</h1>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
+      <h2 class="centered-text"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-<h2>Welcome</h2>
-<p>
-  Congratulations you've stumbled upon my portfolio site. For a long time I've wanted to be able to have a space to display projects, blog a bit, and generally just have a little bit of a web presence. After stumbling upon jekyll and github pages I was able to make this little site a reality. If you're looking to create your own site and are already familiar with github I highly recommend checking out jekyll and github pages!
-</p>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
+    </article>
+  {% endfor %}
+</div>
